@@ -1,10 +1,10 @@
-package sample;
+package sample.edu_988_gui_chat;
 
-import com.sun.scenario.effect.impl.sw.java.JSWBlend_SRC_OUTPeer;
+
 import javafx.fxml.FXML;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-import org.w3c.dom.ls.LSOutput;
+
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
