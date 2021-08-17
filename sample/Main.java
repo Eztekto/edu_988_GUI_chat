@@ -1,4 +1,4 @@
-package sample;
+package sample.edu_988_gui_chat;
 
 import javafx.application.Application;
 import javafx.application.Platform;
@@ -12,7 +12,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("SuperChat");
         primaryStage.setScene(new Scene(root, 400, 300)); // Ширина, высота
         primaryStage.show();
         primaryStage.setOnCloseRequest(e->{
