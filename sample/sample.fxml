@@ -4,8 +4,8 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="300" prefWidth="400" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
-    <TextArea fx:id="onlineUsers" editable="false" prefWidth="125" style="-fx-background-color: 7DF9ff;" />
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="300" prefWidth="400" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.edu_988_gui_chat.Controller">
+    <TextArea fx:id="onlineUsers" editable="false" prefWidth="125" />
     <VBox alignment="center" prefHeight="300" prefWidth="275">
         <TextArea fx:id="textArea" editable="false" prefHeight="250" prefWidth="275" style="-fx-control-inner-background: #90ee90; -fx-font-family: Consolas; -fx-highlight-fill: #00ff00; -fx-highlight-text-fill: #0000FF; -fx-text-fill: #000000;">
             <font>
@@ -14,14 +14,14 @@
         <HBox>
             <TextField fx:id="textField" onAction="#send" prefHeight="25" prefWidth="195" />
             <Button onAction="#send" prefHeight="25" prefWidth="80" style="-fx-background-color: #f5f5dc;" text="Отправить">
-            <font>
-               <Font name="Georgia" size="12.0" />
-            </font></Button>
+                <font>
+                    <Font name="Georgia" size="12.0" />
+                </font></Button>
         </HBox>
         <Button onAction="#connect" prefHeight="25" prefWidth="Infinity" style="-fx-background-color: AFEEEE;" text="Подключиться" textAlignment="CENTER">
-         <font>
-            <Font name="Franklin Gothic Demi Cond" size="12.0" />
-         </font></Button>
+            <font>
+                <Font name="Franklin Gothic Demi Cond" size="12.0" />
+            </font></Button>
 
 
     </VBox>
